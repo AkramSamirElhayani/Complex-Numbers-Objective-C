@@ -12,6 +12,7 @@
 		32E5377A278B8C5D004FEE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E53779278B8C5D004FEE59 /* Assets.xcassets */; };
 		32E5377D278B8C5D004FEE59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E5377B278B8C5D004FEE59 /* Main.storyboard */; };
 		32E5377F278B8C5D004FEE59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E5377E278B8C5D004FEE59 /* main.m */; };
+		32E53789278B8CB4004FEE59 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E53788278B8CB4004FEE59 /* Complex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		32E5377C278B8C5D004FEE59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32E5377E278B8C5D004FEE59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32E53780278B8C5D004FEE59 /* Complex_Numbers_Objective_C.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Complex_Numbers_Objective_C.entitlements; sourceTree = "<group>"; };
+		32E53787278B8CB4004FEE59 /* Complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		32E53788278B8CB4004FEE59 /* Complex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		32E53772278B8C5A004FEE59 /* Complex Numbers Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				32E53786278B8C9E004FEE59 /* Classes */,
 				32E53773278B8C5A004FEE59 /* AppDelegate.h */,
 				32E53774278B8C5A004FEE59 /* AppDelegate.m */,
 				32E53776278B8C5A004FEE59 /* ViewController.h */,
@@ -66,6 +70,15 @@
 				32E53780278B8C5D004FEE59 /* Complex_Numbers_Objective_C.entitlements */,
 			);
 			path = "Complex Numbers Objective-C";
+			sourceTree = "<group>";
+		};
+		32E53786278B8C9E004FEE59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32E53787278B8CB4004FEE59 /* Complex.h */,
+				32E53788278B8CB4004FEE59 /* Complex.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E53789278B8CB4004FEE59 /* Complex.m in Sources */,
 				32E53778278B8C5A004FEE59 /* ViewController.m in Sources */,
 				32E5377F278B8C5D004FEE59 /* main.m in Sources */,
 				32E53775278B8C5A004FEE59 /* AppDelegate.m in Sources */,

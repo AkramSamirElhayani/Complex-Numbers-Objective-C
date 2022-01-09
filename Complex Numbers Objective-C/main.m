@@ -26,7 +26,7 @@ int main(int argc, const char * argv[]) {
     printf("Please Enter Complex 2 Data  : \n" );
     [Complex GetDataFromUser:c2];
     Complex *cAdd = [c1 Add:c2];
-    Complex *cSub = [c2 Substract:c2];
+    Complex *cSub = [c2 Substract:c1];
     printf( "Com 1   :" );
     [Complex Print :c1 ];
     printf( "Com 2   : " );
